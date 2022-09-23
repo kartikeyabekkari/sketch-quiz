@@ -1,0 +1,61 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color: orange;
+    background-color: red;
+}
+
+#show_sketch {
+    float: right;
+}
+
+#label {
+    color: green;
+    font-size: 25px;
+}
+
+#confidence {
+    font-size: 25px;
+    color: darkblue;
+}
+
+#timer {
+    float: right;
+    font-size: 30px;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+#score {
+    float: left;
+    font-size: 30px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+#Sketch_name {
+    font-size: 25px;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px pink;}
+}
+
+p, span {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 150px;
+    animation-iteration-count: infinite;
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px pink;}
+}
